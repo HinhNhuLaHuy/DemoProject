@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-2">Resume Generator</h1>
+        <p class="text-center">By Group 12</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Personal Information</h3>
+                <div class="form-group">
+                    <label for="nameField">Your name:</label>
+                    <input type="text" id="nameField" class="form-control" placeholder="E.g: Nguyen Pham Gia Huy">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="emailField">Your email:</label>
+                    <input type="text" id="emailField" class="form-control" placeholder="E.g: yuh.nguyenpham@gmail.com">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="ageField">Your age:</label>
+                    <input type="number" id="ageField" class="form-control" placeholder="E.g: 18">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="contactField">Your contact numbers:</label>
+                    <input type="tel" id="contactField" class="form-control" placeholder="E.g: 0969122412">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="addressField">Your address:</label>
+                    <textarea id="addressField" class="form-control" placeholder="E.g: Thanh Pho Vung Tau" rows="5"></textarea>
+                </div>
+
+                <p class="text-secondary my-3">Contact links:</p>
+
+                <div class="form-group mt-2">
+                    <label for="facebookField">Facebook link:</label>
+                    <input type="text" id="facebookField" class="form-control" placeholder="E.g: https://www.facebook.com/HinhNhuLaHuy">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="instagramField">Instagram link:</label>
+                    <input type="text" id="instagramField" class="form-control" placeholder="E.g: https://www.instagram.com/HinhNhuLaHuy">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="githubField">Github link:</label>
+                    <input type="text" id="githubField" class="form-control" placeholder="E.g: https://www.github.com/HinhNhuLaHuy">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Professional Information</h3>
+
+                <div class="form-group mt-2">
+                    <label for="">Objective:</label>
+                    <textarea class="form-control" placeholder="Provides a 2-3 sentence snapshot of your professional experience, skills, and achievements,..." rows="4"></textarea>
+                </div>
+
+                <div class="form-group mt-2" id="aq">
+                    <label for="">Academic Qualification:</label>
+                    <textarea class="form-control aqField" placeholder="E.g: Graduated from International University with excellent degree" rows="3"></textarea>
+                
+                    <div class="container text-center mt-3" id="aqAddButton">
+                        <button onclick="addNewAQField()" class="btn btn-primary btn-sm">Add more</button>
+                    </div>
+                </div>
+
+                <div class="form-group mt-2" id="we">
+                    <label for="">Work Experience:</label>
+                    <textarea class="form-control weField" placeholder="E.g: Used to work at Google for 3 years" rows="3"></textarea>
+                
+                    <div class="container text-center mt-3" id="weAddButton">
+                        <button onclick="addNewWEField()" class="btn btn-primary btn-sm">Add more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contaniner text-center mt-3">
+            <button class="btn btn-primary btn-lg">Generate CV</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="resume.js"></script>
+</body>
+</html>
