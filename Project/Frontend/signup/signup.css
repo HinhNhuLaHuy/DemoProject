@@ -8,7 +8,7 @@ html{
 body{
     min-height: 100%;
     width: 100vh;
-    background-color: #f2f3f5;
+    background: url("../img/bg.jpg")no-repeat;
     display:flex;
     align-items: center;
     justify-content: center;
