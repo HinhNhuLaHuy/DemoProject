@@ -5,6 +5,19 @@ html{
 body{
     background: url("../img/bg.jpg")no-repeat;
 }
+.text-secondary{
+    color: #373941;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.form-control::-webkit-input-placeholder{
+    color: #B4BAC0;
+    font-weight: 500;
+}
+.form-control::-moz-input-placeholder{
+    color: #B4BAC0;
+    font-weight: 500;
+}
 .bot{
     text-align: center;
     margin-top: 50px;
