@@ -46,11 +46,11 @@ function generateCV(){
 
     document.getElementById("addressT").innerHTML = document.getElementById("addressField").value;
 
-    document.getElementById("facebookT").innerHTML = document.getElementById("facebookField").value;
+    document.getElementById("facebookT").innerHTML = " - " + document.getElementById("facebookField").value;
 
-    document.getElementById("instagramT").innerHTML = document.getElementById("instagramField").value;
+    document.getElementById("instagramT").innerHTML = " - " +  document.getElementById("instagramField").value;
 
-    document.getElementById("githubT").innerHTML = document.getElementById("githubField").value;
+    document.getElementById("githubT").innerHTML = " - " + document.getElementById("githubField").value;
 
     document.getElementById("objectiveT").innerHTML = document.getElementById("objectiveField").value;
 

@@ -37,8 +37,8 @@ body{
     outline: none;
     background-color: hsl(85, 74%, 45%);
     display: inline-;
-    width: 20%;
-    border-radius: 10px;
+    width: 150px;
+    border-radius: 5px;
     padding: 10px 20px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
@@ -57,8 +57,8 @@ body{
     outline: none;
     background-color: hsl(85, 74%, 45%);
     display: inline-block;
-    width: 20%;
-    border-radius: 10px;
+    width: 200px;
+    border-radius: 5px;
     padding: 10px 20px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
