@@ -49,6 +49,11 @@
                     <textarea id="addressField" class="form-control" placeholder="E.g: Thanh Pho Vung Tau" rows="5"></textarea>
                 </div>
 
+                <div class="form-group mt-3">
+                    <label for="">Select your profile picture: </label>
+                    <input id="imgField" type="file" class="form-control">
+                </div>
+
                 <h3 class="text-secondary">Contact links:</h3>
 
                 <div class="form-group mt-2">
@@ -82,7 +87,7 @@
                     <textarea class="form-control aqField" placeholder="E.g: Graduated from International University with excellent degree" rows="3"></textarea>
                 
                     <div class="container text-center mt-3" id="aqAddButton">
-                        <button onclick="addNewAQField()" class="btn btn-primary btn-sm">Add more</button>
+                        <button onclick="addNewAQField()" class="button">Add more</button>
                     </div>
                 </div>
 
@@ -91,7 +96,7 @@
                     <textarea class="form-control weField" placeholder="E.g: Used to work at Google for 3 years" rows="3"></textarea>
                 
                     <div class="container text-center mt-3" id="weAddButton">
-                        <button onclick="addNewWEField()" class="btn btn-primary btn-sm">Add more</button>
+                        <button onclick="addNewWEField()" class="button">Add more</button>
                     </div>
                 </div>
             </div>
@@ -112,7 +117,7 @@
     <div class="container backgroundForm" id="cv-template">
         <div class="row">
             <div class="col-md-4 text-center py-5 background">
-                <img src="../img/default-avatar.jpeg" alt="" class="img-fluid thumb-img">
+                <img src="../img/default-avatar.jpeg" alt="" class="img-fluid thumb-img" id="imgTemplate">
                 <div class="container">
                     <p class="nameT" id="nameT">Nguyễn Phạm Gia Huy</p>
                     <div class="card-header">
