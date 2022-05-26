@@ -5,6 +5,12 @@ html{
 body{
     background: url("../img/bg.jpg")no-repeat;
 }
+#cv-form{
+}
+#cv-template{
+    display: none;
+}
+
 .text-secondary{
     color: #373941;
     margin-top: 20px;
@@ -20,6 +26,7 @@ body{
 }
 .bot{
     text-align: center;
+    justify-content: center;
     margin-top: 50px;
 }
 .buttonBack{
@@ -50,7 +57,7 @@ body{
     outline: none;
     background-color: hsl(85, 74%, 45%);
     display: inline-block;
-    width: 40%;
+    width: 20%;
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 20px;
@@ -81,4 +88,44 @@ body{
     font-weight: 600;
     box-shadow: 0 5px 10px 0 rgba(130, 201, 30, 0.5);
    
+}
+
+.thumb-img{
+    border: 4px solid #1296C0;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.background{
+    background-color: #DBDBDB;
+    border-radius: 10px;
+}
+.backgroundForm{
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.card-header{
+    background-color: black;
+}
+.nameT{
+    font-size: 40px;
+    color: #229CBF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link{
+    color: #1C1C1C;
+    text-decoration: none;
+}
+.contact-info{
+    border: 3px solid #1296C0;
+    border-radius: 10px;
+    text-align: center;
+    color: #229CBF;
+}
+.personal-info{
+    text-align: left;
+    text-indent: 22px;
+    color: #1C1C1C;
 }
